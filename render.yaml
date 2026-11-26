@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: dawit-coffee-api
+    runtime: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn Dawit_Coffee_Export_Backend.wsgi:application
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_DEBUG
+        value: "False"
+      - key: DJANGO_ALLOWED_HOSTS
+        value: ".onrender.com"
+      - key: PYTHON_VERSION
+        value: "3.12.0"
