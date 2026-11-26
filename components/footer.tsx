@@ -66,10 +66,10 @@ export default function Footer() {
               <li>Addis Ababa, Ethiopia</li>
               <li className="space-y-1">
                 <a
-                  href="mailto:dawitdemissie@gmail.com"
+                  href="mailto:dawitdemissie0@gmail.com"
                   className="block break-all hover:text-[#fffaf4] hover:underline"
                 >
-                  dawitdemissie@gmail.com
+                  dawitdemissie0@gmail.com
                 </a>
                 <a
                   href="mailto:arcethiopia@yahoo.com"
