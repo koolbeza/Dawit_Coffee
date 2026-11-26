@@ -64,3 +64,6 @@ media.zip
 
 # Misc local folders
 /B/
+
+# Local backup of nested Git metadata; do not commit repository internals.
+Dawit_Coffee/.git.nested-backup/
